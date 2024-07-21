@@ -11,7 +11,7 @@ public class ScoreManager : MonoBehaviour
 
     public static Action onGameWon;
 
-    private void Start()
+    private void Awake()
     {
         totalBox = pointBoxParent.transform.childCount;
         currentBox = totalBox;
