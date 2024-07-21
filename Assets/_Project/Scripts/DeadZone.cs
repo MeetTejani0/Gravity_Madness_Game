@@ -9,6 +9,5 @@ public class DeadZone : MonoBehaviour
     {
         _collider = GetComponent<Collider>();
         _collider.isTrigger = true;
-        // ===
     }
 }
