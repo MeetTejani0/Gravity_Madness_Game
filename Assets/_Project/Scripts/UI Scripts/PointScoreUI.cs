@@ -25,7 +25,7 @@ public class PointScoreUI : MonoBehaviour
 
     private void ReduceBox(int i)
     {
-        scoreText.text = scoreManager.GetTotalPoint()-scoreManager.GetCurrentPoint()+" / "+scoreManager.GetTotalPoint();
+        scoreText.text = scoreManager.GetTotalPoint()-scoreManager.GetCurrentPoint()+i+" / "+scoreManager.GetTotalPoint();
     }
 
 }
